@@ -20,3 +20,7 @@ To add an invoice: do a [POST] request on /api/invoices with the following JSON 
 }
 
 To print a list of invoice totals, that is, net price, gross price and VAT: do a [GET] request on /api/invoices
+
+To change the status of an invoice to sent: do a [PATCH] request on /api/invoices/{id}/status/sent
+
+To change the status of an invoice to paid: do a [PATCH] request on /api/invoices/{id}/status/paid
