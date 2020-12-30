@@ -36,7 +36,5 @@ class MakeInvoiceSentHandlerTest extends TestCase
         $handler = $this->handler;
 
         $handler($command);
-
-        self::assertEquals(1, 1);
     }
 }
