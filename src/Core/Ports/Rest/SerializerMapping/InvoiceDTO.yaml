@@ -1,0 +1,6 @@
+App\Core\Application\Query\Invoice\DTO\InvoiceDTO:
+  attributes:
+    id:
+      groups: ['invoice_view']
+    status:
+      groups: ['invoice_view']
