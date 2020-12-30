@@ -60,5 +60,4 @@ class Recipient
     {
         $this->setCountry($country);
     }
-
 }

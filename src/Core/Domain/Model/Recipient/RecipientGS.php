@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Core\Domain\Model\Recipient;
 
-
 trait RecipientGS
 {
     public function getId(): int
@@ -41,5 +40,4 @@ trait RecipientGS
     {
         $this->country = $country;
     }
-
 }

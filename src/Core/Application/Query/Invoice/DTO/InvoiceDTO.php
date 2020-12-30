@@ -50,19 +50,20 @@ final class InvoiceDTO
 
     public static function calculateVat($country): float
     {
-        switch($country){
+        switch ($country) {
             case 'Germany':
                 return 0.19;
-            case 'Austria';
+            case 'Austria':
                 return 0.2;
-            case 'USA';
+            case 'USA':
                 return 0;
+            return 0;
         }
     }
 
     public static function calculateGross(int $net, float $vat): int
     {
-        return intval( $net + ($vat * $net));
+        return intval($net + ($vat * $net));
     }
 
     public function getId(): int

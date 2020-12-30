@@ -74,5 +74,4 @@ class Item
     {
         $this->setInvoice($invoice);
     }
-
 }

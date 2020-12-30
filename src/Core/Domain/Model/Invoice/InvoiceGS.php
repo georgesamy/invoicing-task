@@ -8,7 +8,6 @@ use App\Core\Domain\Model\Recipient\Recipient;
 
 use Doctrine\ORM\PersistentCollection;
 
-
 trait InvoiceGS
 {
     public function getId(): int

@@ -36,5 +36,4 @@ final class GetInvoicesQueryHandler
 
         return new PaginatedData($taskDTOs, $count);
     }
-
 }

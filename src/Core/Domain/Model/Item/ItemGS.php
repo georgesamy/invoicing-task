@@ -47,5 +47,4 @@ trait ItemGS
     {
         $this->invoice = $invoice;
     }
-
 }
